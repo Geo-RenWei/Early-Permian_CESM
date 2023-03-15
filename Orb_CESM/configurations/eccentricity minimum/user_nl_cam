@@ -1,0 +1,22 @@
+! Users should add all user specific namelist changes below in the form of 
+! namelist_var = new_namelist_value 
+
+bnd_topo='/gpfs/share/home/2101110664/INPUTTOPO/290manew/290manew_cam_bnd.nc'
+ncdata='/gpfs/share/home/2101110664/INPUTTOPO/290manew/290manew_cam_cami.nc'
+
+prescribed_aero_datapath = '/gpfs/share/home/2101110664/INPUTTOPO'
+prescribed_aero_file     = 'aero_1.9x2.5_L26_1850clim_c091112_uniform.nc'
+
+scenario_ghg='FIXED'
+! curent co2 value = 280e-6
+co2vmr=350e-6
+ch4vmr=760.e-9
+n2ovmr=270.e-9
+f11vmr=0.0
+f12vmr=0.0
+
+!current value = 1361 w/m2
+solar_const=1329.42
+
+
+
